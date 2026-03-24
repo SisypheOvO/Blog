@@ -4,7 +4,7 @@ links:
   - title: Email
     description: i@sisy.cc
     website: mailto:i@sisy.cc
-    image: svg/email-svgrepo-com.svg
+    image: svg/email-address-sign-at-inbox-svgrepo-com.svg
   - title: GitHub
     description: https://github.com/SisypheOvO
     website: https://github.com/SisypheOvO
