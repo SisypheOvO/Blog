@@ -1,12 +1,6 @@
 toggleMenu = "切换菜单"
 darkMode   = "暗色模式"
 
-[menu]
-    home = "首页"
-    archives = "归档"
-    search = "搜索"
-    links = "链接"
-
 [list]
     page       = "{{ .Count }} 个页面"
     section    = "章节"

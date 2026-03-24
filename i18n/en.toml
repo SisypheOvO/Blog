@@ -1,12 +1,6 @@
 toggleMenu = "Toggle Menu"
 darkMode   = "Dark Mode"
 
-[menu]
-    home = "Home"
-    archives = "Archives"
-    search = "Search"
-    links = "Links"
-
 [list]
     section = "Section"
 

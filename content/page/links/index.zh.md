@@ -1,5 +1,5 @@
 ---
-title: Links
+title: "链接"
 links:
   - title: GitHub
     description: https://github.com/SisypheOvO
@@ -7,9 +7,8 @@ links:
     image: github-square-svgrepo-com.svg
 menu:
     main:
-        weight: 4
+        weight: -50
         params:
             icon: link
-
 comments: false
 ---
