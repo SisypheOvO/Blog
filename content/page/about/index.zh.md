@@ -11,11 +11,11 @@ links:
     image: svg/github-square-svgrepo-com.svg
   - title: Telegram
     description: https://t.me/sisiPh
-    website:   https://t.me/sisiPh
+    website: https://t.me/sisiPh
     image: svg/telegram-svgrepo-com.svg
 menu:
     main:
-        weight: 5
+        weight: 6
         params:
             icon: user
 comments: false
