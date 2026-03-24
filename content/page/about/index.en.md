@@ -21,10 +21,10 @@ menu:
 comments: false
 ---
 
-Living in Nanjing, China.
-DN42 network enthusiast (AS4242422426)
-Use Ubuntu for coding, Windows for gaming and daily usage
-Ops engineer & full-stack developer
-Prefer open-source software and self-hosted services
-5 digit osu! standard/4k player
-Philosophy & music lover
+- Living in Nanjing, China.
+- DN42 network enthusiast (AS4242422426)
+- Use Ubuntu for coding, Windows for gaming and daily usage
+- Ops engineer & full-stack developer
+- Prefer open-source software and self-hosted services
+- 5 digit osu! standard/4k player
+- Philosophy & music lover
