@@ -1,5 +1,5 @@
 ---
-title: Friends
+title: "朋友们"
 description: "我的朋友们"
 links:
   - title:       MoonWX
@@ -15,6 +15,7 @@ menu:
         weight: 4
         params:
             icon: people-outline-svgrepo-com
+toc: false
 ---
 
 ## 交换友链

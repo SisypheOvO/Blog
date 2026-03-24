@@ -15,6 +15,7 @@ menu:
         weight: 4
         params:
             icon: people-outline-svgrepo-com
+toc: false
 ---
 
 ## Friend Link Exchange
