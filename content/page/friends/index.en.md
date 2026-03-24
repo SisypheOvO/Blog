@@ -14,7 +14,7 @@ menu:
     main:
         weight: 4
         params:
-            icon: people-outline-svgrepo-com
+            icon: people
 toc: false
 ---
 
