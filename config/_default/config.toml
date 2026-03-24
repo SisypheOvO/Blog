@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl      = "https://jp.sisy.cc/"
+baseurl      = "https://blog.sisy.cc/"
 languageCode = "zh-cn"
 title        = "Sisy's Blog"
 
