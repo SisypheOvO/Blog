@@ -2,11 +2,42 @@
     You can add your own custom styles here.
 */
 
+// Add arrow for language switcher
 .menu-bottom-section #i18n-switch select {
     appearance: auto;
     -webkit-appearance: auto;
 }
 
+// Add radius for friend links
 .article-list--compact.links img {
     border-radius: 6px;
+}
+
+:root {
+    --main-top-padding: 35px;
+    --body-background: #f5f5fa;
+    --accent-color: #34495e;
+    --accent-color-darker: #2c3e50;
+    --accent-color-text: #fff;
+    --body-text-color: #bababa;
+    --tag-border-radius: 4px;
+    --section-separation: 40px;
+    --scrollbar-thumb: hsl(0, 0%, 85%);
+    --scrollbar-track: var(--body-background);
+}
+
+:root[data-scheme=dark] {
+    --body-background: #303030;
+    --accent-color: #ecf0f1;
+    --accent-color-darker: #bdc3c7;
+    --accent-color-text: #000;
+    --body-text-color: rgba(255, 255, 255, 0.7);
+    --scrollbar-thumb: hsl(0, 0%, 40%);
+    --scrollbar-track: var(--body-background);
+}
+
+// Add scrollbar styles
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
 }

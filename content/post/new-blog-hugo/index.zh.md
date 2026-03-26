@@ -103,16 +103,16 @@ disqusShortname = "sisypheovo"
     weight            = 2
 ```
 
-特别对于权重而言，像这样不是 en 权重最大的话，创建各个博客文章的 index markdown 文件的时候，必须要有 `index.en.md`、`index.zh.md`，而不是 `index.md` 和 `index.zh.md`，否则默认的 `index.md` 文件会被视为 zh 的版本。所以这里要记得跟普通的 i18n 情况不一样，`index.md` 不再是 en 的默认版本了。
+特别对于权重而言，像这样不是 en 权重最大的话，创建各个博客文章的 index markdown 文件的时候，必须要有 `index.en.md`、`index.zh.md`，而不是 `index.md` 和 `index.zh.md`，否则默认的 `index.md` 文件会被视为 zh 的版本。也要记得跟普通的 i18n 情况不一样，`index.md` 不再是 en 的默认版本了。
 
 另外，对于如上配置，各语言下内容的 URL 结构为 `/xxx/` 和 `/en/xxx/`。
 
-非内容的各个字符串的翻译，可以通过在 `i18n/` 目录下创建对应语言的 TOML 文件来配置，比如 `i18n/zh.toml` 中可以配置中文环境下的各种字符串的翻译。默认部分可以直接从示例仓库的[这里](https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n)复制整个文件过来，非常方便。
+非内容的各个字符串（比如页脚文本）的翻译，可以通过在 `i18n/` 目录下创建对应语言的 TOML 文件来配置，比如 `i18n/zh.toml` 中可以配置中文环境下的各种字符串的翻译。默认部分可以直接从示例仓库的[这里](https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n)复制整个文件过来，非常方便。
 
 #### `menu.toml`
 
 ```toml
-# 像这样在左侧菜单中添加一个不指向任何页面的菜单项，而是一个非页面的链接菜单项
+# 像这样在左侧菜单中添加一个不指向任何页面的链接菜单项
 # 像这里我就做了一个 RSS 的链接，权重设置为 99，确保它在菜单的最下面显示。不过 icon 需要自己找一找。
 # Hugo 的 RSS 订阅链接通常是 `/index.xml`，内容是由 Hugo 自动生成的，不需要手动创建。
 [[main]]
@@ -147,8 +147,6 @@ menu:
 ```
 
 需要注意的是，如果想要添加一些自定义布局的页面，还最好需要额外创建一个 `layouts/` 目录，在里面放置对应的自定义布局 HTML 文件。
-
-```yml
 
 以下是一个配置好的菜单示例：
 
