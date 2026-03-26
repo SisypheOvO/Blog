@@ -6,8 +6,9 @@ image: img/cover.png
 tags:
     - Blog
     - Deployment
+    - DNS
 categories:
-    - Coding
+    - Self-Hosting
 ---
 
 ## Introduction

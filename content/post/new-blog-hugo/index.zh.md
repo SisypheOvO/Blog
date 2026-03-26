@@ -6,8 +6,9 @@ image: img/cover.png
 tags:
     - 博客
     - 部署
+    - DNS
 categories:
-    - Coding
+    - 自部署
 ---
 
 ## 前言
