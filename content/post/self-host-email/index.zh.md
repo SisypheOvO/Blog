@@ -30,13 +30,13 @@ categories:
 
 |自定义地址|操作|目标|状态|
 |-|-|-|-|
-|[i@sisy.cc](i@sisy.cc)|发送到电子邮件|[sisyphe.dev@gmail.com](sisyphe.dev@gmail.com)|活动|
+|[i@sisy.cc](mailto:i@sisy.cc)|发送到电子邮件|[sisyphe.dev@gmail.com](mailto:sisyphe.dev@gmail.com)|活动|
 
-这样一来，他人向 [i@sisy.cc](i@sisy.cc) 发送邮件时，邮件将会被转发到 [sisyphe.dev@gmail.com](sisyphe.dev@gmail.com)。这一步的本质是，创建邮件转发规则后，Cloudflare 会自动生成一些 DNS 记录来支持邮件转发功能，包括 MX 记录、TXT 记录 (SPF 记录、DKIM 记录) 等。如下图中，可以看到 Cloudflare 已经自动添加了三条 MX 记录和两条 TXT 记录：
+这样一来，他人向 [i@sisy.cc](mailto:i@sisy.cc) 发送邮件时，邮件将会被转发到 [sisyphe.dev@gmail.com](mailto:sisyphe.dev@gmail.com)。这一步的本质是，创建邮件转发规则后，Cloudflare 会自动生成一些 DNS 记录来支持邮件转发功能，包括 MX 记录、TXT 记录 (SPF 记录、DKIM 记录) 等。如下图中，可以看到 Cloudflare 已经自动添加了三条 MX 记录和两条 TXT 记录：
 
 ![Cloudflare Email Routing DNS Records](img/cloudflare-email-settings.png)
 
-三条 MX 记录分别指向 `route1.mx.cloudflare.net.`、`route2.mx.cloudflare.net.` 和 `route3.mx.cloudflare.net.`，优先级分别为 4、88 和 84。这些 MX 记录告诉其他邮件服务器，当有人向 [i@sisy.cc](i@sisy.cc) 发送邮件时，邮件将会被转发到 [sisyphe.dev@gmail.com](sisyphe.dev@gmail.com)。而两条 TXT 记录则分别是 SPF 记录和 DKIM 记录，用于验证邮件的真实性，防止邮件被伪造或被标记为垃圾邮件。
+三条 MX 记录分别指向 `route1.mx.cloudflare.net.`、`route2.mx.cloudflare.net.` 和 `route3.mx.cloudflare.net.`，优先级分别为 4、88 和 84。这些 MX 记录告诉其他邮件服务器，当有人向 [i@sisy.cc](mailto:i@sisy.cc) 发送邮件时，邮件将会被转发到 [sisyphe.dev@gmail.com](mailto:sisyphe.dev@gmail.com)。而两条 TXT 记录则分别是 SPF 记录和 DKIM 记录，用于验证邮件的真实性，防止邮件被伪造或被标记为垃圾邮件。
 
 ## 自定义域名代发
 
@@ -52,7 +52,7 @@ categories:
 
 ![Add Sender Info Modal](img/gmail-add-sender-info.png)
 
-在弹出的窗口中，输入计划用来代发的自定义邮件地址（比如 [i@sisy.cc](i@sisy.cc) ），以及显示名称（比如 Sisy）。点击下一步，进入 SMTP 服务器设置页面。
+在弹出的窗口中，输入计划用来代发的自定义邮件地址（比如 [i@sisy.cc](mailto:i@sisy.cc) ），以及显示名称（比如 Sisy）。点击下一步，进入 SMTP 服务器设置页面。
 
 ![SMTP Server Settings](img/gmail-smtp-settings.png)
 
@@ -76,6 +76,6 @@ Tips: 这里很容易遇到问题，尤其是 Google 账号开启了两步验证
 
 ### 验证地址
 
-添加账号之后，Gmail 会向目标自定义邮箱地址（我这里就是 [i@sisy.cc](i@sisy.cc)）发送一封验证邮件。因为之前已经设置了邮件转发，所以这封验证邮件会直接被转发到 Gmail 的收件箱里，这样就又回到了 Gmail。打开这封邮件，点击里面的验证链接，完成验证过程就行。这样一来，就成功把自定义域名添加为 Gmail 的一个发件地址了。之后通过 Gmail 发送邮件时，可以在发件人地址处选择 Gmail 地址或者自定义域名地址两种。
+添加账号之后，Gmail 会向目标自定义邮箱地址（我这里就是 [i@sisy.cc](mailto:i@sisy.cc)）发送一封验证邮件。因为之前已经设置了邮件转发，所以这封验证邮件会直接被转发到 Gmail 的收件箱里，这样就又回到了 Gmail。打开这封邮件，点击里面的验证链接，完成验证过程就行。这样一来，就成功把自定义域名添加为 Gmail 的一个发件地址了。之后通过 Gmail 发送邮件时，可以在发件人地址处选择 Gmail 地址或者自定义域名地址两种。
 
 ![Select Sender](img/gmail-select-sender.png)
