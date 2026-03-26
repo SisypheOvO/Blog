@@ -2,6 +2,7 @@
 title: "Migrating Blog to Hugo"
 date: 2026-03-19
 description: Records the process of migrating the blog to Hugo using the starter template
+image: img/cover.jpg
 tags:
     - Blog
     - Deployment
