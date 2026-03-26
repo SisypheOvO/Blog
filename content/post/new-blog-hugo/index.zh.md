@@ -2,7 +2,7 @@
 title: "将博客迁移至 Hugo"
 date: 2026-03-19
 description: 记录了我使用 starter 将博客迁移至 Hugo 的过程
-image: img/cover.jpg
+image: img/cover.png
 tags:
     - 博客
     - 部署
