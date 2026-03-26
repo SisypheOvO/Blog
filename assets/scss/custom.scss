@@ -20,6 +20,7 @@
     --accent-color-darker: #2c3e50;
     --accent-color-text: #fff;
     --body-text-color: #bababa;
+    --code-text-color: #808;
     --tag-border-radius: 4px;
     --section-separation: 40px;
     --scrollbar-thumb: hsl(0, 0%, 85%);
@@ -32,6 +33,7 @@
     --accent-color-darker: #bdc3c7;
     --accent-color-text: #000;
     --body-text-color: rgba(255, 255, 255, 0.7);
+    --code-text-color: #fc5;
     --scrollbar-thumb: hsl(0, 0%, 40%);
     --scrollbar-track: var(--body-background);
 }
@@ -40,4 +42,9 @@
 * {
     scrollbar-width: auto;
     scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+// Override Chroma styles for better readability
+[data-scheme=light] .chroma .c {
+    color: #5a5644;
 }
