@@ -12,8 +12,8 @@ links:
     image:       https://cdn.hakochest.net/Atri720.png
   - title:       Is14w
     description: 明かりになったあなたへ 宇宙に届くまで待っていて
-    website:     http://is14w.xyz/
-    image:       http://is14w.xyz/wp-content/uploads/2026/03/65A0DB217F8992F3A4BE45D5FA5FA864.jpg
+    website:     https://is14w.xyz/
+    image:       https://is14w.xyz/wp-content/uploads/2026/03/65A0DB217F8992F3A4BE45D5FA5FA864.jpg
 menu:
     main:
         weight: 4
