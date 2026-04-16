@@ -24,6 +24,10 @@ toc: false
 
 ## Friend Link Exchange
 
-You can add this site as a friend link first, then send an email to [i@sisy.cc](mailto:i@sisy.cc) with the subject "Friend Link" and the content including your nickname, blog link, and description.
+You can add this site as a friend link first, then send an email to [i@sisy.cc](mailto:i@sisy.cc) with the subject "Friend Link" and the content including `your nickname`, `link`, and `description` (or something else like a motto).
 
 It would be even better if you could attach an image or its permanent link that you want to use as the friend link Avatar, as well as a screenshot showing that you have added this site as a friend link.
+
+By the way, the information you want to use when adding me is entirely up to your preference. For example, here are some examples of how my good friends added me:
+
+![Example](img/example.png)
