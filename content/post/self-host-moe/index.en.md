@@ -1,5 +1,5 @@
 ---
-title: "Deploy Moe-Counter using Docker + Nginx + Certimate + Cloudflare"
+title: "Self-Deploy Moe-Counter"
 date: 2026-04-17
 description: Start from scratch to deploy Moe-Counter using Docker to a VPS, with Nginx reverse proxy, Certimate automatic HTTPS certificate management, and Cloudflare DNS resolution, building a complete cute counter service
 image: img/cover.png

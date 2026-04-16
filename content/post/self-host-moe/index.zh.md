@@ -1,5 +1,5 @@
 ---
-title: "使用 Docker + Nginx + Certimate + Cloudflare 部署 Moe-Counter"
+title: "自部署 Moe-Counter"
 date: 2026-04-17
 description: 从零开始使用 Docker 部署 Moe-Counter 至 VPS，配合 Nginx 反代、Certimate 自动管理 HTTPS 证书、Cloudflare DNS 解析，搭建一个完整的萌萌计数器服务
 image: img/cover.png
