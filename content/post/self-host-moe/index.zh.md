@@ -16,6 +16,8 @@ categories:
     - 自部署
 ---
 
+<!-- markdownlint-disable MD033 -->
+
 ## 前言
 
 起因是看到 osu! 玩家 [IamKwaN](https://osu.ppy.sh/users/1856463) 的 profile 上有一个很像 shields.io 风格的访问计数器，让我想起非常多人都喜欢在自己的博客或者 GitHub Profile 上挂一个类似的 hit counter 来统计访问量。
@@ -508,4 +510,4 @@ sudo systemctl reload nginx
 
 喂，别忘了配置一下 Certimate 的续期失败通知啊（
 
-<!-- ![](https://moe.sisy.cc/@:sisy-blog-moe?name=%3Asisy-blog-moe&theme=gelbooru-h&padding=2&offset=0&align=top&scale=1&pixelated=1&darkmode=auto) -->
+<img src="https://moe.sisy.cc/@:sisy-blog-moe?name=%3Asisy-blog-moe&theme=gelbooru-h&padding=2&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt=":sisy-blog-moe" />
