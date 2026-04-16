@@ -3,6 +3,8 @@ baseurl      = "https://blog.sisy.cc/"
 languageCode = "zh"
 title        = "Sisy's Blog"
 
+buildFuture = true
+
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
 defaultContentLanguage = "zh"
