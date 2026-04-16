@@ -9,6 +9,7 @@ tags:
     - DNS
 categories:
     - Self-Hosting
+    - Blog
 ---
 
 ## Introduction

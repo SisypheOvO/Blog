@@ -9,6 +9,7 @@ tags:
     - DNS
 categories:
     - 自部署
+    - 博客
 ---
 
 ## 前言
