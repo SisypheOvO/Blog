@@ -1,5 +1,5 @@
 ---
-title: "Connecting to the DN42 Network from Scratch"
+title: "Connecting to the DN42 Network from Scratch - Part 1: Registration and Identity Verification"
 date: 2026-03-22
 description: "Recording the process and experience of connecting to DN42"
 image: img/cover.png

@@ -1,5 +1,5 @@
 ---
-title: "从零开始接入 DN42 网络"
+title: "从零开始接入 DN42 网络 - 1: 注册与身份认证"
 date: 2026-03-22
 description: "记录接入 DN42 的一些过程和经验"
 image: img/cover.png
