@@ -1,6 +1,6 @@
 ---
 title: "Connecting to the DN42 Network from Scratch - Part 4: Implementing a Public Web Panel to Display Network Information"
-date: 2026-04-23
+date: 2026-05-01
 description: "Writing a simple web panel to display my DN42 network information and then deploying it."
 image: img/cover.png
 tags:

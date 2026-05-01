@@ -1,6 +1,6 @@
 ---
 title: "从零开始接入 DN42 网络 - 4: 实现网络信息公网展示面板"
-date: 2026-04-23
+date: 2026-05-01
 description: "写一个简单的 Web 面板来展示自己的 DN42 网络信息，然后部署。"
 image: img/cover.png
 tags:
