@@ -21,7 +21,7 @@ categories:
 
 - 一般很多大网 DN42 玩家或者自己喜欢玩儿的都会有一个公共的 Web 面板来展示自己的网络信息，包括 AS、地址段、节点信息、互联政策等
 - MoonWX [纯 vibe 出来的面板](https://net.moonwx.net/) 还是很不错的，我基本就是希望拿 Vue 将其完整实现，添加几个他没有的功能，并稍做优化
-- Kioubit 的[面板](https://dn42.g-load.eu/) 也给了我很大启发，尤其是我希望能像他一样能够提供一个批量 Ping 的服务，从而让用户能快速判断连接哪个节点最优。
+- Kioubit 的 [面板](https://dn42.g-load.eu/) 也给了我很大启发，尤其是我希望能像他一样能够提供一个批量 Ping 的服务，从而让用户能快速判断连接哪个节点最优。
 - 先做个大概吧，离 Kioubit 那种功能完善的面板还差远了
 - 后续可能还会有 Looking Glass 之类的功能？再说吧
 
@@ -471,7 +471,7 @@ jobs:
 
 ### 你可能会遇到的问题
 
-1. 首先考虑到安全问题，不应该使用 root 用户来操作，所以你需要一个配置好权限的 deployer 用户：
+1. 设计上，首先考虑到安全问题，不应该使用 root 用户来操作，所以你需要一个配置好权限的 deployer 用户：
 
 ```bash
 adduser deployer
@@ -490,13 +490,12 @@ no configuration file provided: not found
 
 3. 此外，在 `appleboy/ssh-action` 的 script 中，`~` 可能不会被正确解析。你必须使用绝对路径来指定部署目录，例如 `/home/deployer/app`，而不能使用 `~/app`。
 4. 你传入 Github Secrets 的 SSH 私钥必须是属于 deployer 用户的，而不是 root 用户的，且公钥应被添加到其 ~/.ssh/authorized_keys 文件中，否则 CI 无法正确连接到 deployer 用户。
-5. 由于要执行 `git pull`，你需要给 deployer 用户也配置访问 GitHub 仓库的 Authentication SSH key，并且这个 key 需要添加到 GitHub 仓库的 Deploy Keys 中:
 
 ```bash
 # 以 deployer 身份生成 SSH key
 su - deployer -c "ssh-keygen -t ed25519 -C 'deployer' -f /home/deployer/.ssh/id_ed25519 -N ''"
-# 输出公钥内容，并添加到 GitHub 仓库的 Deploy Keys 中
 cat /home/deployer/.ssh/id_ed25519.pub
+cat /home/deployer/.ssh/id_ed25519
 # 验证能否正常 pull
 su - deployer -c "cd /home/deployer/app && git pull"
 ```
