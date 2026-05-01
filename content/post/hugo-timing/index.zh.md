@@ -2,7 +2,6 @@
 title: "Hugo 文章不显示 - 未来日期/时区"
 date: 2026-04-17
 description: "记录Hugo因未来日期导致文章不显示的排查过程与解决方法，涉及buildFuture参数、时区设置等。"
-image: img/cover.png
 tags:
     - 博客
     - 排错
