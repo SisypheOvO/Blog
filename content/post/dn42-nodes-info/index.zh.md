@@ -530,7 +530,7 @@ To add an exception for this directory, call:
     git config --global --add safe.directory /home/deployer/app
 ```
 
-6. `docker compose up -d --build` 需要 deployer 用户有权限执行 Docker 命令。这意味着 deployer 用户需要被添加到 `docker` 组中：
+5. `docker compose up -d --build` 需要 deployer 用户有权限执行 Docker 命令。这意味着 deployer 用户需要被添加到 `docker` 组中：
 
 ```bash
 usermod -aG docker deployer
