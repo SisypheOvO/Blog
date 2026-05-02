@@ -1,6 +1,6 @@
 ---
 title: "使用 Github Template 时，如何同步源 Template 的上游更新？"
-date: 2026-05-01
+date: 2026-05-03
 description: "简单操作一下。"
 image: img/cover.png
 tags:

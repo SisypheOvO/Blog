@@ -1,6 +1,6 @@
 ---
 title: "How to Sync Upstream Updates from the Source when Using Github Template?"
-date: 2026-05-01
+date: 2026-05-03
 description: "A simple operation."
 image: img/cover.png
 tags:
