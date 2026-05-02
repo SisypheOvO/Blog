@@ -15,4 +15,4 @@ menu:
 
 - [iedon map](https://map.iedon.net/#4242422426)
 - [节点信息与配置](https://dn42.sisy.cc)
-- ~~[Looking glass](https://lg.dn42.sisy.cc)~~
+- [Looking glass](https://lg.sisy.cc)

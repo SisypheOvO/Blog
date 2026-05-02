@@ -15,4 +15,4 @@ We prefer to peer over IPv6 through WireGuard tunnels, but IPv4 peering is also 
 
 - [iedon map](https://map.iedon.net/#4242422426)
 - [Nodes information and configuration](https://dn42.sisy.cc)
-- ~~[Looking glass](https://lg.dn42.sisy.cc)~~
+- [Looking glass](https://lg.sisy.cc)
